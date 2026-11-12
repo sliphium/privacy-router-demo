@@ -1,0 +1,22 @@
+{
+  "privacyProfile": "campus",
+  "demoMode": true,
+  "strictMode": false,
+  "thresholds": {
+    "local": 40,
+    "sanitize": 10
+  },
+  "ollama": {
+    "baseUrl": "http://127.0.0.1:11434",
+    "model": "qwen2.5:7b"
+  },
+  "cloud": {
+    "baseUrl": "https://api.openai.com/v1",
+    "model": "gpt-4o-mini",
+    "apiKey": ""
+  },
+  "allowLocalFallback": true,
+  "allowDegradeToCloud": false,
+  "semanticReview": false,
+  "timeoutMs": 300000
+}
